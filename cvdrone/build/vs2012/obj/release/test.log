@@ -1,0 +1,25 @@
+﻿生成启动时间为 2014/6/27 11:33:23。
+     1>项目“E:\Projects\#Visual Studio\#Projects\cvdrone\build\vs2012\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\src\3rdparty\opencv\include /I..\..\src\3rdparty\ffmpeg\include /I..\..\src\3rdparty\pthread\include /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NOMINMAX /D NDEBUG /D _CONSOLE /D __STDC_CONSTANT_MACROS /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\obj\release\\" /Fd".\obj\release\vc110.pdb" /Gd /TP /wd4996 /wd4244 /analyze- /errorReport:prompt ..\..\src\main.cpp
+         main.cpp
+     1>e:\projects\#visual studio\#projects\cvdrone\src\functionalities/LocateColoredObject.hpp(72): warning C4101: “blockFoundFlag”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\vs2012\test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\src\3rdparty\opencv\lib\vs2012 /LIBPATH:..\..\src\3rdparty\ffmpeg\lib /LIBPATH:..\..\src\3rdparty\pthread\lib wsock32.lib opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_photo246.lib opencv_stitching246.lib opencv_superres246.lib opencv_video246.lib opencv_videostab246.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib swresample.lib swscale.lib pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:..\..\src\resource\test.exe.manifest /DEBUG /PDB:".\obj\release\release.pdb" /SUBSYSTEM:CONSOLE /STACK:"0","0" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\vs2012\test.lib" /MACHINE:X86 /SAFESEH .\obj\release\resource.res
+         .\obj\release\ardrone.obj
+         .\obj\release\command.obj
+         .\obj\release\config.obj
+         .\obj\release\navdata.obj
+         .\obj\release\tcp.obj
+         .\obj\release\udp.obj
+         .\obj\release\version.obj
+         .\obj\release\video.obj
+         .\obj\release\main.obj
+         正在生成代码
+         已完成代码的生成
+         test.vcxproj -> E:\Projects\#Visual Studio\#Projects\cvdrone\build\vs2012\..\..\bin\vs2012\test.exe
+     1>已完成生成项目“E:\Projects\#Visual Studio\#Projects\cvdrone\build\vs2012\test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.52
