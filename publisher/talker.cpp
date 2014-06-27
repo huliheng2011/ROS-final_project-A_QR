@@ -3,7 +3,9 @@
 #include "geometry_msgs/Pose2D.h"
 #include "GetRedBoxPosition.cpp"
 
+#include <iostream>
 #include <sstream>
+#include <string>
 
 /**
  * This tutorial demonstrates simple sending of messages over the ROS system.
@@ -64,14 +66,12 @@ int main(int argc, char **argv)
     //std_msgs::String msg;
     geometry_msgs::Pose2D msg;
 
-    std::stringstream ss;
-    ss <<" ";
-    //msg.data = ss.str();
+    ReadPoint();
     msg.x = getPositionX();
     msg.y = getPositionY();
     msg.theta = getReady();
 
-    ROS_INFO("%2.f %2.f %2.f", msg.x, msg.y, msg.theta);
+    ROS_INFO("%f %f %f", msg.x, msg.y, msg.theta);
  
     /**
      * The publish() function is how you send messages. The parameter
