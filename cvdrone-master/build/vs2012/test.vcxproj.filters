@@ -17,12 +17,6 @@
     <Filter Include="Resource Files">
       <UniqueIdentifier>{4cceaaea-23b5-4465-aeec-3b00075be422}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\functionalities">
-      <UniqueIdentifier>{6960a5b7-63f7-425a-999f-168227248423}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\functionalities">
-      <UniqueIdentifier>{cb6541fc-aaa1-46a2-99b7-c04ad85fd738}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -52,16 +46,10 @@
     <ClCompile Include="..\..\src\ardrone\version.cpp">
       <Filter>Source Files\ardrone</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\functionalities\LocateColoredObject.cpp">
-      <Filter>Source Files\functionalities</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\ardrone\ardrone.h">
       <Filter>Header Files\ardrone</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\functionalities\functionalities.h">
-      <Filter>Header Files\functionalities</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

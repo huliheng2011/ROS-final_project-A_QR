@@ -1,3 +1,6 @@
+Before the introduction of CV Drone, one thing need to say.
+You can find our code in the main.cpp.
+
 -----------------------------------------------------------------
  CV Drone (= OpenCV + AR.Drone)
  Copyright (C) 2013 puku0x

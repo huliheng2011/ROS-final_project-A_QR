@@ -171,7 +171,7 @@ int LocateColoredObject(int argc, char **argv)
         blockFoundFlag = true;
 
         // Inform the position
-        printf("Block found at position (%d, %d)\n", pos_x, pos_y);b
+        printf("Block found at position (%d, %d)\n", pos_x, pos_y);
       }
     }
     
